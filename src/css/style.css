@@ -1,0 +1,19 @@
+*{
+    background-color: rgb(230, 246, 241);
+}
+form{
+    padding: 100px;
+}
+#num1{
+    padding: 10px;
+}
+#num2{
+    padding: 10px;
+}
+#operator{
+    padding: 10px;
+}
+.butt{
+    background-color: rgb(255, 208, 0);
+    padding: 10px;
+}

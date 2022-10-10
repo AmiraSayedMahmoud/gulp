@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.part2 {
+  background: url(../image/mountains.jpg), linear-gradient(0, lightgray, rgb(35, 146, 190));
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.i-part4 {
+  width: 30%;
+}
+
+.b-part4 {
+  background-color: rgb(35, 146, 190);
+  color: white;
+  width: 30%;
+}
+
+.d-part5, .d1-part5 {
+  width: 20%;
+  border: 2px solid rgb(35, 146, 190);
+}
+
+.d1-part5 {
+  background-color: rgb(35, 146, 190);
+  color: white;
+}
+
+.d-part6 {
+  background-color: rgb(243, 241, 237);
+}
+
+.h_part6 {
+  color: rgb(35, 146, 190);
+}
+
+.h_part7 {
+  color: rgb(35, 146, 190);
+}
+
+.d_part7 {
+  width: 20%;
+}
+
+.d_part8 {
+  background-color: rgb(243, 241, 237);
+}
+
+.i_part7 {
+  background-color: rgb(35, 146, 190);
+}
+
+footer {
+  background-color: rgb(35, 146, 190);
+}
+
+/*# sourceMappingURL=style.css.map */

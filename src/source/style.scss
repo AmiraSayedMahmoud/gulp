@@ -1,0 +1,50 @@
+@import './var_';
+@import './reset_';
+
+.part2{
+    background: url(../image/mountains.jpg),linear-gradient(0,lightgray,$primary-color);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+
+}
+.i-part4{
+    width: 30%;
+}
+.b-part4 {
+    background-color: $primary-color;
+    color: white;
+    width: 30%;
+}
+@mixin color {
+    background-color: $primary-color;
+    color:white;
+}
+.d-part5,.d1-part5{
+    width: 20%;
+    border: 2px solid $primary-color;
+}
+.d1-part5{
+   @include color();
+}
+.d-part6{
+    background-color: $accent-color;
+}
+.h_part6{
+    color:$primary-color;
+}
+.h_part7{
+    color: $primary-color;
+}
+.d_part7{
+    width: 20%;
+}
+.d_part8{
+    background-color: $accent-color;
+}
+.i_part7{
+    background-color: $primary-color;
+}
+footer{
+    background-color: $primary-color;
+}
